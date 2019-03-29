@@ -34,7 +34,7 @@ RUN apk add --no-cache --virtual .build-dependencies \
         libffi-dev \
         openssl-dev \
         build-base \
-    && pip install --upgrade pip cffi ansible \
+    && pip install --upgrade pip cffi ansible requests google-auth \
     && apk del .build-dependencies
 
 # Install Kubectl and Helm
