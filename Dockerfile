@@ -3,7 +3,7 @@ MAINTAINER Mickael VILLERS <mickael@keyops.tech>
 
 # Note: Latest version of kubectl may be found at:
 # https://aur.archlinux.org/packages/kubectl-bin/
-ENV KUBE_LATEST_VERSION="v1.13.4"
+ENV KUBE_LATEST_VERSION="v1.16.0"
 
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
