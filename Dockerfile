@@ -50,3 +50,5 @@ RUN wget -q https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cl
     && ln -s /lib /lib6 \
     && gcloud config set core/disable_usage_reporting true \
     && gcloud config set component_manager/disable_update_check true
+
+COPY --from=docker:19.03.3 /usr/local/bin/docker /usr/local/bin/
